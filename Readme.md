@@ -41,3 +41,15 @@ go get -d -v ./...
 ###二、[beego](https://www.tizi365.com/archives/104.html) ###
 
 
+### 三、[GF 脚手架](https://www.cnblogs.com/haima/p/13041257.html) ###
+```textmate
+gf gen model ./app/model -c config/config.toml -p t_ -t t_encrypt_test
+
+命令说明
+
+./app/model #在model生成的路径
+-c config/config.toml #在这个配置里找database数据库连接配置 需要写好mysql的配置信息
+
+```
+
+
